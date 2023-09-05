@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+   
+
+    <!-- normalize -->
+    <link rel="stylesheet" href="login.css.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="m.css" />
+  </head>
+  <body>
+  
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a>CookBook
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a class="nav-link"> about </a>
+          <a  class="nav-link"> tags </a>
+          <a  class="nav-link"> recipes </a>
+
+          <div class="nav-link contact-link">
+            <a href="login.html" class="btn"> Login </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <main class="page">
+     <section class="contact-container">
+          <article class="contact-info">
+            <h3>Want To Get In Touch?</h3>
+            <p>
+              To unlock the full potential of our cookbook website and savor a world of culinary delights,</p>
+            <p> simply log in! Your personalized cooking journey awaits, with access to a vast collection of delectable recipes,</p>
+            </p> helpful cooking tips, and a vibrant community of fellow food enthusiasts</p>
+            <p>
+             Join us today to discover, create, and share your culinary masterpieces. Let's get cooking!
+            </p>
+          </article>
+          <article>
+            <form class="form contact-form">
+              <div class="form-row">
+                <label html="name" class="form-label">your name</label>
+                <input type="text" name="name" id="name" class="form-input" />
+              </div>
+              <div class="form-row">
+                <label html="email" class="form-label">your email</label>
+                <input type="text" name="email" id="email" class="form-input" />
+              </div>
+              <div class="form-row">
+                <label html="message" class="form-label">message</label>
+                <textarea name="message" id="message" class="form-textarea"></textarea>
+              </div>
+              <button type="submit" class="btn btn-block">
+                submit
+              </button>
+            </form>
+          </article>
+        </section>
+        <div class="recipes-list">
+        
+          <a  class="recipe">
+            <img
+              src="Gulab jamun.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Gulab Jamun</h5>
+            <p>Prep : 15min | Cook : 25min</p>
+          </a>
+          
+          <a class="recipe">
+            <img
+              src="ramen.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Ramen Korean style</h5>
+            <p>Prep : 15min | Cook : 20min</p>
+          </a>
+          
+          
+          <a  class="recipe">
+            <img
+              src="soup.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Vegetable Soup</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+         
+            </section>
+    </main>
+   
+
+   
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">Recipes</span> Built by
+        <a>CookBook</a>
+      </p>
+    </footer>
+  </body>
+</html>
